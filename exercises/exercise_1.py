@@ -1,9 +1,7 @@
 def print_numbers():
     # Your task is to use a for loop to print numbers from 1 to 10.
-    count = 1
-    while count < 11:
-        print(count)
-        count +=1
+    for number in range(1,11):
+        print(number)
 
 def main():
     print_numbers()
